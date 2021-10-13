@@ -1,0 +1,76 @@
+.slider-section{
+   background: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg)  no-repeat top center fixed;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+   top: -50px;
+   left: 0;
+}
+
+.slider-content{
+   padding-top: 40vh;
+   width: 42%;
+}
+
+.slider-content h4 {
+	color: #e73c3e;
+	font-size: 18px;
+	font-weight: 400;
+}
+.slider-content h1 {
+	font-size: 58px;
+	font-weight: 500;
+	margin: 15px 0;
+}
+.slider-content p {
+	color: #606060;
+	margin-bottom: 35px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.slider-social {
+	position: absolute;
+	bottom: 0;
+	left: 95px;
+}
+.slider-social ul{
+   display: flex;
+   list-style: none;
+   padding-left: 0;
+}
+.slider-social ul li{}
+.slider-social ul li span{}
+.slider-social ul li .line {
+	width: 40px;
+	height: 1px;
+	background: #111;
+	position: relative;
+	top: 50%;
+	left: 10%;
+	margin-right: 25px;
+}
+.slider-social ul li a {
+	color: #111;
+	padding: 0 6px;
+   transition: 400ms;
+}
+.slider-social ul li a:hover{
+   color: #e73c3e;
+}
+
+
+/* Logo Section CSS Start */
+.logo-section {
+	padding: 80px 0;
+	margin: -50px 0;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 0;
+}
+
+.logos{
+   display: flex;
+   justify-content: space-between;
+}
+.logos img{}
+/* Logo Section CSS End */

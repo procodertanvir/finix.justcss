@@ -1,0 +1,169 @@
+.navbar-section {
+	padding-top: 3px;
+   background: #fff;
+   box-shadow: 2px 2px 15px 0 rgba(0,0,0,.04);
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 99;
+}
+.main-navbar{
+   display: flex;
+   justify-content: space-between;
+}
+.logo-side{}
+.logo-side img{}
+
+.menu-side {
+	margin-left: 90px;
+	display: flex;
+	align-items: center;
+}
+.menu-side ul{
+   list-style: none;
+   display: flex;
+}
+.menu-side ul li{}
+.menu-side ul li:first-child a{
+   color: #e73c3e;
+}
+.menu-side ul li a {
+	color: #111;
+	padding: 20px 17px;
+	font-size: 15px;
+	font-weight: 500;
+	transition: 400ms;
+}
+.menu-side ul li a:hover{
+   color: #e73c3e;
+}
+.menu-side ul li span {
+	border-right: 1px solid #ddd;
+	padding-right: 20px;
+	font-size: 20px;
+}
+.menu-side ul li span:hover{}
+
+/* DropDown Menu Start */
+.menu-side ul li{
+   position: relative;
+}
+.menu-side ul li ul{
+   padding: 10px 5px;
+   flex-direction: column;
+   position: absolute;
+   top: 200%;
+   left: 0;
+   width: 180px;
+   height: auto;
+   background: #fff;
+   box-shadow: 2px 2px 15px 0 rgba(0,0,0,.1);
+   opacity: 0;
+   visibility: hidden;
+   transition: 400ms;
+}
+.menu-side ul li:hover ul{
+   opacity: 1;
+   visibility: visible;
+   top: 150%;
+}
+.menu-side ul li ul li{
+   display: inline-block;
+   margin: 8px 0;
+}
+.menu-side ul li ul li:nth-child(1) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(2) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(3) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(4) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(5) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(6) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(7) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(8) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(9) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(10) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(11) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(12) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(13) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(14) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(15) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(16) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(17) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(18) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(19) a{
+   color: #111;
+}
+.menu-side ul li ul li:nth-child(20) a{
+   color: #111;
+}
+
+.menu-side ul li ul li a{
+   display: block;
+   transition: 400ms;
+   padding: 3px 15px;
+}
+.menu-side ul li ul li a:hover{
+   color: #e73c3e;
+}
+/* DropDown Menu End */
+
+.menu-right {
+	display: flex;
+	padding-bottom: 7px;
+	align-items: center;
+}
+.menu-right span {
+	color: #e73c3e;
+	font-size: 30px;
+	transform: rotate(320deg);
+	margin-right: 30px;
+	margin-top: 9px;
+}
+.menu-right .call-now {
+	margin: -20px;
+	margin-right: 25px;
+}
+.menu-right .call-now p {
+	margin-bottom: 4px;
+	font-size: 15px;
+	color: #606060;
+}
+.menu-right .call-now a {
+	color: #111;
+}
+.menu-right a{margin-top: 8px;}

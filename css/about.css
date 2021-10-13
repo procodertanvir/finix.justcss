@@ -1,0 +1,39 @@
+.about-section{
+   padding: 80px 0;
+}
+.about-content{
+   display: flex;
+}
+.about-content div{
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 55%;
+   margin-right: 10%;
+}
+.about-content div:nth-child(1){
+   flex-basis: 40%;
+   margin-right: 10%;
+}
+.about-image{
+   position: relative;
+}
+.years-experience {
+	background: url(https://templates.envytheme.com/finix/default/assets/img/about/shape.png) no-repeat top center;
+	background-size: contain;
+	position: absolute;
+	right: -100px;
+	bottom: 20px;
+	padding: 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.years-experience h1 {
+   font-weight: 500;
+   color: #e83b3e;
+	font-size: 80px;
+}
+.years-experience h5 {
+	font-weight: 500;
+	font-size: 14px;
+}

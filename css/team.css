@@ -1,0 +1,82 @@
+.team-section{
+   padding: 80px 0;
+   background: #fafbfc;
+}
+
+.team-members{
+   display: flex;
+   margin-top: 3%;
+}
+.member{
+   margin-right: 2%;
+}
+.member::last-child{
+   margin-right: 0;
+}
+.member-image{
+   margin-bottom: 4%;
+}
+.member-details h4{
+   font-size: 18px;
+   font-weight: 500;
+   color: #e73c3e;
+   margin-bottom: 2%;
+}
+
+/* Blog Section CSS Start */
+.blog-section{
+   padding: 80px 0;
+}
+
+.blogs-posts{
+   display: flex;
+   margin-top: 3%;
+}
+.blog{
+   margin-right: 2%;
+}
+
+.blog::last-child{
+   margin-right: 0;
+}
+.blog-image{
+   margin-bottom: 4%;
+}
+
+.blog-title{}
+.blog-title h4 {
+	color: #e73c3e;
+	font-weight: 500;
+}
+.blog-title h2 {
+	margin: 2.5% 0;
+}
+.blog-title h2 a{
+	font-size: 25px;
+   font-weight: 500;
+}
+
+.blog:hover .blog-title h2 a{
+   color: #111;
+   letter-spacing: 0;
+}
+.blog-title h2 a:hover{
+   color: #e73c3e !important;
+   letter-spacing: 0;
+}
+.blog-title a {
+	color: #111;
+	font-size: 15px;
+   transition: 400ms;
+   font-weight: 600;
+}
+
+.blog:hover .blog-title a{
+   color: #e73c3e;
+   letter-spacing: 1px;
+}
+.blog-title a:hover{
+   color: #e73c3e;
+   letter-spacing: 1px;
+}
+/* Blog Section CSS End */

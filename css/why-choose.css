@@ -1,0 +1,102 @@
+.why-choose{
+   background: #f9fafb;
+   padding: 80px 0;
+}
+
+.why-choose-main{
+   display: flex;
+}
+.why-choose-main div{
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 55%;
+   /* margin-right: 10%; */
+}
+.why-choose-main div:nth-child(1) {
+	flex-basis: 50%;
+	/* margin-right: 3%; */
+}
+
+.why-image-side{}
+.why-image{}
+.why-image img {
+	max-width: 90%;
+}
+
+.why-card-side{}
+.first-row {
+	display: flex;
+   margin-bottom: 25px;
+}
+.first-row div{
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 50%;
+}
+
+.first-row .card-1::before {
+	content: '';
+	position: absolute;
+	bottom: 70%;
+	left: -10px;
+   right: 0;
+	margin: auto;
+	width: 350px;
+	height: 350px;
+	background: #fdebeb;
+	border-radius: 50%;
+   z-index: -1;
+}
+.first-row .card-1 {
+	text-align: center;
+	background: #fff;
+	padding: 38px 0;
+	margin: 0 10px;
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+   transition: 400ms;
+}
+.first-row .card-1:hover span{
+   background: #e73c3e;
+   color: #fff;
+}
+.first-row .card-1:hover{
+   transform: translateY(-10px);
+}
+.first-row div:nth-child(2) {
+	transform: translateY(-25px);
+}
+.first-row div:nth-child(2):hover {
+	transform: translateY(-35px);
+}
+.first-row .card-1 span {
+   color: #e73c3e;
+	background: #fff;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	border-radius: 50%;
+	line-height: 70px;
+	font-size: 30px;
+	position: relative;
+	top: 6%;
+	left: 0;
+   transition: 400ms;
+}
+.first-row .card-1 h1 {
+	margin-top: 30px;
+	margin-bottom: 25px;
+   font-weight: 500;
+}
+.first-row .card-1 p {
+	margin: 10px 30px;
+	color: #606060;
+	line-height: 25px;
+}
+
+.second-row{}
+.second-row .card-1{}
+.second-row .card-1 span{}
+.second-row .card-1 h1{}
+.second-row .card-1 p{}

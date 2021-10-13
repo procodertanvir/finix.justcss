@@ -1,0 +1,150 @@
+.calculate-section{
+   padding: 80px 0;
+}
+.calculate-section .finix-text{
+   max-width: 620px;
+   margin: 0 auto;
+}
+
+.calculate-main{
+   display: flex;
+   margin-top: 50px;
+   align-items: center;
+}
+.calculate-main div{
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 50%;
+   margin-right: 2%;
+}
+.calculate-main div:nth-child(2){
+   flex-basis: 48%;
+}
+.loan-steps{}
+.calculate-rate {
+	background: #fdebeb;
+	padding: 30px 0;
+	padding-bottom: 0;
+}
+
+.loan-steps .finix-text{}
+.loan-steps .finix-text h1 {
+	font-size: 35px;
+	margin-bottom: 30px;
+	line-height: 45px;
+}
+.loan-steps ul {
+	list-style: none;
+   position: relative;
+}
+.loan-steps ul::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -45px;
+	width: 1px;
+	height: calc(100% - 80px);
+	background: #e83b3e;
+}
+.loan-steps ul li {
+	position: relative;
+	margin-bottom: 30px;
+}
+.loan-steps ul li::before {
+	content: attr(data-number);
+	position: absolute;
+	top: 0;
+	left: -11%;
+	background: #f9fafb;
+	border: 1px solid #e73c3e;
+	color: #e73c3e;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 20px;
+}
+
+.loan-steps ul li h2 {
+	font-weight: 500;
+}
+.loan-steps ul li p {
+	color: #606060;
+	line-height: 27px;
+	margin-top: 20px;
+}
+
+.calculate-rate{}
+.calculate-rate .finix-text{}
+.calculate-rate .finix-text p{}
+.calculate-rate .finix-text h1{}
+
+.calculate-rate form {
+	padding: 40px;
+}
+.calculate-rate form label {
+	display: block;
+	margin-bottom: 8px;
+}
+.calculate-rate form input {
+	width: 100%;
+	padding: 15px 8px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.calculate-rate form select {
+	width: 103%;
+	padding: 15px 5px;
+	background: #fff;
+	border: none;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.calculate-rate form select option{}
+.calculate-rate .all-btn {
+	display: block;
+	width: 89.5%;
+	text-align: center;
+	padding: 15px 35px;
+}
+
+/* Call To Action CSS Start */
+.call-to-action{
+   padding: 0 20px;
+}
+.callto-action-main{
+   display: flex;
+   background: #e83b3e;
+   padding: 50px;
+   color: #fff;
+   align-items: center;
+   border-radius: 5px;
+}
+.callto-action-main h1 {
+	font-size: 37px;
+	width: 695px;
+	font-weight: 400;
+	border-right: 1px solid rgb(206, 204, 204);
+	margin-right: 30px;
+	padding-right: 30px;
+}
+.callto-action-main span {
+	font-size: 40px;
+	background: #fff;
+	color: #e83b3e;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	transform: rotate(320deg);
+	margin-right: 15px;
+}
+.callto-action-main a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 500;
+}
+/* Call To Action CSS End */

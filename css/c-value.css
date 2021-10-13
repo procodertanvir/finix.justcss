@@ -1,0 +1,57 @@
+.company-value {
+	padding: 100px 0;
+}
+.company-value .finix-text{}
+.company-value .finix-text h1 {
+	margin-bottom: 40px;
+}
+.company-value-main{
+   display: flex;
+}
+.company-value-main div{
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 50%;
+   margin-right: 5%;
+}
+.company-value-main div:nth-child(2){
+   margin-right: 0;
+}
+.company-value-steps{}
+.company-value-image{}
+
+
+.c-value-step{
+   display: flex;
+   margin-bottom: 4%;
+}
+.c-value-step div{
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 5%;
+}
+.c-value-step div:nth-child(2) {
+	flex-basis: 95%;
+}
+.c-value-step:nth-child(2) {
+	max-width: 95%;
+}
+.cv-step-icon{}
+.cv-step-icon span {
+	font-size: 40px;
+	color: #e73c3e;
+}
+.cv-step-text{}
+.cv-step-text h2 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.cv-step-text p {
+	margin-top: 2%;
+	line-height: 25px;
+	color: #606060;
+}
+
+.company-value-image img{
+   max-width: 90%;
+}

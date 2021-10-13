@@ -1,0 +1,128 @@
+.service-section{
+   padding: 80px 0;
+   background: #f9fafb;
+}
+.service-section-title{}
+.service-section-title .finix-text{
+   max-width: 620px;
+   margin: 0 auto;
+}
+
+.services-items-icons {
+   margin-bottom: 47px;
+}
+.services-items-icons ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #d3d3d3;
+}
+.services-items-icons ul li{
+   text-align: center;
+   padding: 47px 0;
+   transition: 400ms;
+}
+
+.services-items-icons ul li:active a{
+   color: #e73c3e;
+}
+.services-items-icons ul li:active{
+   border-bottom: 1px solid #e73c3e;
+   padding-bottom: 47px;
+}
+
+
+
+.services-items-icons ul li a {
+	font-size: 18px;
+	color: #111;
+   transition: 400ms;
+}
+.services-items-icons ul li a span {
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 2px 2px 15px 0 rgba(0,0,0,.06);
+}
+.services-items-icons ul li a h3{
+   margin-top: 25px;
+}
+
+
+.services-text{
+	margin-left: -5%;
+}
+.mt-mb{
+	margin: 15px 0;
+}
+.services-text-list {
+	list-style: none;
+	margin-top: 15px;
+}
+.services-text-list li{
+	margin-bottom: 5px;
+}
+.services-text-list li::before{
+	content: attr(bullet);
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: #e73c3e;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+
+/* Testimonial Section CSS Start */
+.testimonial-section{
+	padding: 80px 0;
+}
+.testimonial-content {
+	display: flex;
+	margin-top: 3%;
+	align-items: center;
+}
+.testimonial-content div:nth-child(1) {
+	flex-basis: 60%;
+	margin-right: 2%;
+}
+.testimonial-text{}
+.testimonial-text p {
+	font-size: 27px;
+	line-height: 38px;
+}
+.testimonial-text .finix-text{}
+.testimonial-text .finix-text h4 {
+	color: #e73c3e;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 1%;
+}
+.testimonial-text .finix-text p {
+	font-size: 16px;
+}
+.testimonial-image{}
+
+/* .testimonial-text{
+	margin-top: 40px;
+	align-items: center;
+	margin-right: -15%;
+}
+.testimonial-text p{
+	font-size: 24px;
+	line-height: 35px;
+	color: #111;
+}
+.testimonial-text .finix-text h4{
+	color: #e73c3e;
+	font-size: 18px;
+	font-weight: 500;
+}
+.testimonial-text .finix-text p{
+	font-size: 15px;
+} */
+/* Testimonial Section CSS End */

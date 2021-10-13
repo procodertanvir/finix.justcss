@@ -1,0 +1,115 @@
+/* Font Family Start */
+h1,h2,h3,h4,h5,h6,a{
+   font-family: 'Rubik', sans-serif;
+}
+body,p,span{
+   font-family: 'Roboto', sans-serif;
+}
+/* Font Family End */
+
+/* Default Style Start */
+*{
+   padding: 0;
+   margin: 0;
+}
+a{
+   text-decoration: none;
+}
+img{
+   max-width: 100%;
+}
+.t-center{
+   text-align: center;
+}
+.t-right{
+   text-align: right;
+}
+.fixed-width{
+   max-width: 1330px;
+   margin: 0 auto;
+}
+.another-fixed-width{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.left{
+   float: left;
+}
+.right{
+   float: right;
+}
+.clear::after{
+   content: '';
+   clear: both;
+   display: block;
+}
+/* Default Style End */
+
+/* All Button Start */
+.all-btn {
+	color: #fff;
+	background: #e73c3e;
+	padding: 12px 35px;
+	border-radius: 4px;
+   position: relative;
+   z-index: 1;
+}
+.all-btn::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0%;
+   height: 100%;
+   background: #111;
+   border-radius: 3px;
+   transition: 400ms;
+   z-index: -1;
+}
+.all-btn:hover::after{
+   width: 100%;
+}
+/* All Button End */
+
+/* Finix Text Start */
+.finix-text{}
+.finix-text h5 {
+	color: #e73c3e;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.finix-text h1 {
+	font-size: 38px;
+	font-weight: 400;
+   margin-bottom: 12px;
+}
+.finix-text p {
+	color: #606060;
+	line-height: 25px;
+}
+.finix-text span {
+	color: #606060;
+	font-size: 17px;
+}
+.finix-text ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 35px;
+}
+.finix-text ul li {
+	color: #606060;
+	font-weight: 300;
+	letter-spacing: 0.04em;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+.finix-text ul li::before{
+   content: "\f00c";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 15px;
+   color: #e83b3e;
+}
+/* Finix Text End */
